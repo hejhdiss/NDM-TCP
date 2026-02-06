@@ -223,6 +223,7 @@ class NDMTCPController:
         self.hidden_size = hidden_size
         self.output_size = output_size
         self.manifold_size = manifold_size
+        self.learning_rate = learning_rate
         
         self._net = _lib.create_ndm_tcp(
             input_size, hidden_size, output_size, manifold_size, learning_rate
@@ -573,4 +574,5 @@ def demo():
     print(f"  Pacing Rate: {controller.current_pacing_rate:.2f} Mbps")
 
 if __name__ == "__main__":
+
     demo()
