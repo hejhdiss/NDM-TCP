@@ -10,6 +10,7 @@ Features:
 - Decision making and traffic analysis
 - Comprehensive logging system
 - Network statistics visualization
+Licensed under GPL V3.
 """
 
 import sys
@@ -1260,4 +1261,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
